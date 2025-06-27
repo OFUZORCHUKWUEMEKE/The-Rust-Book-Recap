@@ -1,6 +1,7 @@
+mod generic;
 mod method;
 mod results;
-mod generic;
+mod traits;
 
 fn main() {
     // addition
@@ -38,7 +39,6 @@ fn main() {
         "November",
         "December",
     ];
-
     // print_labeled_measurement(2, 'cm');
 }
 
