@@ -49,4 +49,8 @@ impl Animal for Sheep{
     fn talk(&self){
         println!("{} pauses briefly... {}",self.name,self.noise())
     }
+
+    fn commit(&self){
+        println!("commited code to codebase to repository successfully")
+    }
 }
